@@ -1,18 +1,21 @@
+<script setup>
+// 1. Import the image asset
+import gorillaBg from '../assets/gorilla2.jpg'
+</script>
 <template>
-  <section class="min-h-screen bg-gradient-to-b from-green-50 to-white">
+  <section class="min-h-screen bg-gradient-to-b from-green-50 to-white bg-cover bg-center bg-no-repeat" :style="{ backgroundImage: `url(${gorillaBg})` }">
     <!-- Hero Section -->
     <div 
       class="min-h-[70vh] flex flex-col items-center justify-center text-center px-4 py-20 bg-cover bg-center relative"
-      style="background-image: url('../assets/');"
     >
       <!-- Background Overlay for text readability -->
       <div class="absolute inset-0 bg-green-950/40 mix-blend-multiply"></div>
 
       <!-- Hero Content -->
       <div class="max-w-4xl mx-auto relative z-10">
-        <div class="mb-6 inline-block px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-semibold tracking-wider">
+        <!-- <div class="mb-6 inline-block px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-semibold tracking-wider">
           🌍 DISCOVER AFRICA'S GEM
-        </div>
+        </div> -->
         
         <h1 class="text-6xl md:text-7xl font-extrabold text-white tracking-tight mb-6 leading-tight drop-shadow-md">
           WELCOME TO<br />
@@ -35,7 +38,7 @@
     </div>
   </section>
 
-    <!-- Why Choose Rwanda -->
+    <!-- Why Choose Rwanda
     <section class="py-20 px-4 bg-gradient-to-r from-green-50 to-emerald-50">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Why Choose Rwanda?</h2>
@@ -63,5 +66,5 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 </template>

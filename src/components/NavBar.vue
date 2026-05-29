@@ -64,10 +64,10 @@ onUnmounted(() => {
         <!-- Dropdown Menu Box -->
         <ul v-if="activeDropdown === 'gallery'" class="absolute left-0 top-full mt-0 bg-white text-gray-900 rounded-lg shadow-xl py-3 w-48 z-50 border-t-4 border-green-600">
           <li class="hover:bg-green-50">
-            <RouterLink to="/gallery/photos" class="block px-4 py-3 hover:text-green-700 font-semibold transition-colors">📸 Photos</RouterLink>
+            <RouterLink to="/gallery/photos" class="block px-4 py-3 hover:text-yellow-700 font-semibold transition-colors">📸 Photos</RouterLink>
           </li>
           <li class="hover:bg-green-50 border-t border-gray-200">
-            <RouterLink to="/gallery/videos" class="block px-4 py-3 hover:text-green-700 font-semibold transition-colors">🎥 Videos</RouterLink>
+            <RouterLink to="/gallery/videos" class="block px-4 py-3 hover:text-yellow-700 font-semibold transition-colors">🎥 Videos</RouterLink>
           </li>
         </ul>
       </li>
@@ -86,19 +86,19 @@ onUnmounted(() => {
         <!-- Dropdown Menu Box -->
         <ul v-if="activeDropdown === 'destinations'" class="absolute left-0 top-full mt-0 bg-white text-gray-900 rounded-lg shadow-xl py-3 w-48 z-50 border-t-4 border-green-600">
           <li class="hover:bg-green-50">
-            <RouterLink to="/dest/northern" class="block px-4 py-3 hover:text-green-700 font-semibold transition-colors">⛰️ Northern</RouterLink>
+            <RouterLink to="/dest/northern" class="block px-4 py-3 hover:text-yellow-700 font-semibold transition-colors">⛰️ Northern</RouterLink>
           </li>
           <li class="hover:bg-green-50 border-t border-gray-200">
-            <RouterLink to="/dest/southern" class="block px-4 py-3 hover:text-green-700 font-semibold transition-colors">🌄 Southern</RouterLink>
+            <RouterLink to="/dest/southern" class="block px-4 py-3 hover:text-yellow-700 font-semibold transition-colors">🌄 Southern</RouterLink>
           </li>
           <li class="hover:bg-green-50 border-t border-gray-200">
-            <RouterLink to="/dest/eastern" class="block px-4 py-3 hover:text-green-700 font-semibold transition-colors">🌅 Eastern</RouterLink>
+            <RouterLink to="/dest/eastern" class="block px-4 py-3 hover:text-yellow-700 font-semibold transition-colors">🌅 Eastern</RouterLink>
           </li>
           <li class="hover:bg-green-50 border-t border-gray-200">
-            <RouterLink to="/dest/western" class="block px-4 py-3 hover:text-green-700 font-semibold transition-colors">🌆 Western</RouterLink>
+            <RouterLink to="/dest/western" class="block px-4 py-3 hover:text-yellow-700 font-semibold transition-colors">🌆 Western</RouterLink>
           </li>
           <li class="hover:bg-green-50 border-t border-gray-200">
-            <RouterLink to="/dest/kigali" class="block px-4 py-3 hover:text-green-700 font-semibold transition-colors">🏙️ Kigali</RouterLink>
+            <RouterLink to="/dest/kigali" class="block px-4 py-3 hover:text-yellow-700 font-semibold transition-colors">🏙️ Kigali</RouterLink>
           </li>
         </ul>
       </li>
